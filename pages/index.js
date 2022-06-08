@@ -41,7 +41,7 @@ export default function Home(props) {
       keywords={t('common:home_meta_keywords')}
     >
       {/* -mt-24 */}
-      <main className="-mt-24">
+      <main className="-mt-[20vh] sm:-mt-[10vh]">
         {/* Hero card */}
         <div className="hidden md:block">
           <HeroV1 />

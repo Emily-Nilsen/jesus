@@ -1,11 +1,19 @@
 import '../styles/globals.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import { useRouter } from 'next/router';
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
 
 function MyApp({ Component, pageProps }) {
+  const { locale, locales, defaultLocale, asPath } = useRouter();
+
   return (
     <div>
-      <Navbar />
+      {asPath.includes('-') ? null : <Navbar />}
+
       <Component {...pageProps} />
       <Footer />
     </div>

@@ -7,28 +7,24 @@ const LanguageSwitcher = () => {
 
   return (
     //
-    <div className="relative flex items-center tracking-wider">
+    <div className="relative flex items-center tracking-wider ">
       <div className="container flex items-center justify-between w-1/5 pl-8">
-        <motion.button
-          whileHover={{ color: '#f97316' }}
-          transition={{ type: 'spring', stiffness: 150 }}
-          className="px-2"
-        >
+        <button className="px-2">
           <Link activeClassName={locale === 'es'} href={asPath} locale="es">
-            ES
+            <p className="transition duration-300 ease-in-out text-stone-600 hover:text-amber-600">
+              ES
+            </p>
           </Link>
-        </motion.button>
+        </button>
 
         <p className="text-amber-600">|</p>
-        <motion.button
-          whileHover={{ color: '#f97316' }}
-          transition={{ type: 'spring', stiffness: 150 }}
-          className="px-2"
-        >
+        <button className="px-2">
           <Link activeClassName={locale === 'en'} href={asPath} locale="en">
-            EN
+            <p className="transition duration-300 ease-in-out text-stone-600 hover:text-amber-600">
+              EN
+            </p>
           </Link>
-        </motion.button>
+        </button>
       </div>
     </div>
   );

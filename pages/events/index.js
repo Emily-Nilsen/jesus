@@ -47,23 +47,35 @@ const EventsPage = (props) => {
       description={t('common:events_meta_description')}
       keywords={t('common:events_meta_keywords')}
     >
-      <div className="pb-16 -mt-24 bg-white lg:pb-24">
-        <div aria-hidden="true" className="relative">
+      <motion.div
+        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        transition={{
+          duration: 0.5,
+          type: 'fade',
+          ease: 'easeIn',
+        }}
+        className="pb-16 bg-white lg:pb-24"
+      >
+        <div
+          aria-hidden="true"
+          className="relative object-cover object-center w-full h-[60vh]"
+        >
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604660/Jes%C3%BAs%20Reina/general/events_rhhqq7.jpg"
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654688704/Jes%C3%BAs%20Reina/general/events-page_yympqy.webp"
             alt="Jesús Reina"
-            className="relative object-cover object-center w-full h-96"
+            className=""
             width={1920}
             height={724}
-            layout="responsive"
+            layout="fill"
             objectFit="cover"
-            objectPosition="top"
+            objectPosition="center"
             unoptimized={true}
           />
           <div className="absolute inset-0 mt-12 bg-gradient-to-t from-white" />
         </div>
 
-        <div className="relative px-4 sm:px-6 lg:px-8">
+        <div className="relative px-4 -mt-4 sm:mt-0 sm:px-6 lg:px-8">
           <div className="relative z-0 pb-10 sm:pb-20 lg:pb-32">
             <motion.div
               variants={containerBig}
@@ -78,7 +90,7 @@ const EventsPage = (props) => {
               </motion.div>
 
               <motion.div variants={itemBottom}>
-                <p className="w-5/6 mx-auto mt-5 text-sm leading-normal prose md:text-lg sm:text-base text-stone-500 max-w-prose sm:leading-relaxed">
+                <p className="max-w-xl mx-auto mt-5 text-base leading-normal prose md:text-lg sm:text-base text-stone-500 sm:leading-relaxed">
                   {t('common:events_text')}
                 </p>
               </motion.div>
@@ -98,8 +110,8 @@ const EventsPage = (props) => {
         >
           <div className="max-w-3xl mx-auto">
             <div>
-              <div className="flow-root mt-6">
-                <ul role="list" className="-my-5 divide-y divide-gray-200">
+              <div className="flow-root mt-2 sm:mt-0">
+                <ul role="list" className="-my-5 divide-y divide-stone-200">
                   {events
                     .filter((p) => p.locale === locale)
                     .map((event, i) => (
@@ -109,10 +121,10 @@ const EventsPage = (props) => {
                             <p className="text-xs font-medium sm:text-sm text-amber-600">
                               <p>{event.date || t('common:tba')}</p>
                             </p>
-                            <p className="text-sm font-medium truncate text-stone-600">
+                            <p className="text-sm font-medium truncate sm:text-base text-stone-600">
                               {event.title}
                             </p>
-                            <p className="text-sm truncate text-stone-500">
+                            <p className="text-sm truncate sm:text-base text-stone-500">
                               {event.description}
                             </p>
                           </div>
@@ -134,7 +146,7 @@ const EventsPage = (props) => {
             </div>
           </div>
         </motion.div>
-      </div>
+      </motion.div>
     </Layout>
   );
 };

@@ -18,9 +18,3 @@ const Layout = ({ title, keywords, description, children }) => {
 };
 
 export default Layout;
-
-Layout.defaultProps = {
-  title: 'Jesús Reina',
-  description: 'Jesús Reina',
-  keywords: 'Jesús Reina',
-};

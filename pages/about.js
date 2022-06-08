@@ -35,20 +35,20 @@ const About = () => {
             ease: 'easeIn',
           }}
           aria-hidden="true"
-          className="relative"
+          className="relative object-cover object-center w-full h-[85vh] sm:h-[40vh]"
         >
           <Image
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604654/Jes%C3%BAs%20Reina/general/about_hn44zk.jpg"
             alt="Jesús Reina"
-            className="relative object-cover object-center w-full h-96"
+            className=""
             width={1920}
             height={724}
-            layout="responsive"
+            layout="fill"
             objectFit="cover"
-            objectPosition="center"
+            objectPosition="top right"
             unoptimized={true}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-white" />
+          <div className="absolute inset-0 opacity-100 bg-gradient-to-t from-white" />
         </motion.div>
 
         <div className="relative px-4 sm:px-6 lg:px-8">
@@ -64,7 +64,7 @@ const About = () => {
                   ease: 'easeIn',
                 }}
               >
-                <h1 className="pt-6 pb-12 text-5xl font-semibold tracking-tight sm:text-6xl md:text-7xl text-brown-500">
+                <h1 className="pb-8 -mt-16 text-5xl font-semibold tracking-tight sm:mt-0 sm:text-6xl md:text-7xl text-brown-500">
                   Jesús Reina
                 </h1>
               </motion.div>

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { DownloadIcon } from '@heroicons/react/outline';
 
 const photos = [
   {
@@ -74,16 +75,14 @@ export default function Gallery() {
                   />
                 </div>
               </div>
-              <div className="flex items-center justify-between mt-4 text-base font-medium text-stone-700">
+              <div className="flex items-center mt-4 text-base font-medium text-stone-700 group">
                 <p className="mt-1 text-sm italic text-stone-500">
-                  {/* <span>
-                    <FontAwesomeIcon className="pr-2" icon={faCamera} />
-                  </span> */}
-                  {t('common:photographer')}
+                  {t('common:photographer')}{' '}
                 </p>
-                {/* <p className="group-hover:text-amber-500">
-                  <FontAwesomeIcon icon={faDownload} />
-                </p> */}
+                <DownloadIcon
+                  className="w-6 h-6 ml-4 text-stone-400 group-hover:text-amber-600"
+                  aria-hidden="true"
+                />
               </div>
             </motion.a>
           ))}

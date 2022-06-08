@@ -102,7 +102,7 @@ export default function Features({ events }) {
                           />
                         </div>
                         <div className="">
-                          <h4 className="text-lg font-semibold text-brown-500">
+                          <h4 className="text-lg font-medium tracking-tight text-brown-500">
                             {feature.title}
                           </h4>
                           <p className="mt-1 text-sm text-stone-500 sm:text-base">

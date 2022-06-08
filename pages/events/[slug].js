@@ -12,8 +12,8 @@ const container = {
   show: {
     opacity: 1,
     transition: {
-      delayChildren: 0.2,
-      staggerChildren: 0.2,
+      delayChildren: 0.1,
+      staggerChildren: 0.15,
     },
   },
 };
@@ -22,7 +22,7 @@ const item = {
   show: {
     opacity: 1,
     y: 0,
-    transition: { type: 'fade', duration: 1 },
+    transition: { type: 'fade', duration: 0.5 },
   },
 };
 
@@ -62,7 +62,7 @@ const Event = ({ event }) => {
       description={t('common:event_meta_description')}
       keywords={t('common:event_meta_keywords')}
     >
-      <div className="relative -mt-24 bg-white md:mt-0">
+      <div className="relative bg-white md:mt-0">
         <div className="lg:absolute lg:inset-0">
           <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
             <motion.div
@@ -78,7 +78,7 @@ const Event = ({ event }) => {
                 type: 'fade',
                 ease: 'easeIn',
               }}
-              className="relative object-cover w-full h-96 lg:absolute lg:h-full"
+              className="relative object-cover w-full h-[50vh] lg:absolute lg:h-full"
             >
               <Image
                 src={event.image}
@@ -119,7 +119,7 @@ const Event = ({ event }) => {
 
               <motion.div variants={item}>
                 <div className="prose prose-stone max-w-none">
-                  <h3 className="text-base text-amber-600 sm:text-lg">
+                  <h3 className="text-base font-medium tracking-tight text-amber-600 sm:text-lg">
                     {t('common:program')}
                   </h3>
                   <div className="text-sm text-stone-600 sm:text-base">
@@ -139,7 +139,7 @@ const Event = ({ event }) => {
               </motion.div>
 
               <motion.div variants={item}>
-                <div className="pl-4 mt-4">
+                <div className="pl-4 mt-2">
                   <ButtonLeft href="/events" passHref />
                 </div>
               </motion.div>
