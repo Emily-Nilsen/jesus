@@ -50,7 +50,7 @@ const common = {
   presskit_download: '/static/EPK-Jesús_Reina-EN.pdf',
 
   link_1: 'About',
-  link_2: 'Engagements',
+  link_2: 'Agenda',
   link_3: 'Media',
   link_5: 'Contact',
   link_6: 'Home',

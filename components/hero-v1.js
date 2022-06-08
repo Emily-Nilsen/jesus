@@ -16,7 +16,7 @@ const HeroV1 = () => {
         className="relative"
       >
         <div className="absolute inset-x-0 bottom-0 bg-gray-100 h-1/2" />
-        <div className="relative h-[110vh]">
+        <div className="relative h-[112vh]">
           <div className="absolute inset-0">
             {/* Desktop screens */}
             <div className="object-cover w-full h-full lg:block">

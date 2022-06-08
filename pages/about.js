@@ -25,7 +25,7 @@ const About = () => {
       description={t('common:about_meta_description')}
       keywords={t('common:about_meta_keywords')}
     >
-      <div className="pb-8 -mt-24 bg-white lg:pb-24">
+      <div className="pb-8 -mt-[12vh] bg-white lg:pb-24">
         <motion.div
           whileInView={{ opacity: 1 }}
           initial={{ opacity: 0 }}
@@ -35,7 +35,7 @@ const About = () => {
             ease: 'easeIn',
           }}
           aria-hidden="true"
-          className="relative object-cover object-center w-full h-[85vh] sm:h-[40vh]"
+          className="relative object-cover object-center w-full h-[40vh] sm:h-[40vh]"
         >
           <Image
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604654/Jes%C3%BAs%20Reina/general/about_hn44zk.jpg"

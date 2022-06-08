@@ -55,11 +55,11 @@ const EventsPage = (props) => {
           type: 'fade',
           ease: 'easeIn',
         }}
-        className="pb-16 bg-white lg:pb-24"
+        className="pb-16 -mt-[12vh] bg-white lg:pb-24"
       >
         <div
           aria-hidden="true"
-          className="relative object-cover object-center w-full h-[60vh]"
+          className="relative object-cover object-center w-full h-[50vh]"
         >
           <Image
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654688704/Jes%C3%BAs%20Reina/general/events-page_yympqy.webp"
@@ -75,7 +75,7 @@ const EventsPage = (props) => {
           <div className="absolute inset-0 mt-12 bg-gradient-to-t from-white" />
         </div>
 
-        <div className="relative px-4 -mt-4 sm:mt-0 sm:px-6 lg:px-8">
+        <div className="relative px-4 sm:mt-0 sm:px-6 lg:px-8">
           <div className="relative z-0 pb-10 sm:pb-20 lg:pb-32">
             <motion.div
               variants={containerBig}

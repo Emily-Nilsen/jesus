@@ -31,10 +31,10 @@ const Contact = () => {
       description={t('common:contact_meta_description')}
       keywords={t('common:contact_meta_keywords')}
     >
-      <div className="pb-6 bg-white lg:pb-16">
+      <div className="pb-6 -mt-[12vh] bg-white lg:pb-16">
         <div
           aria-hidden="true"
-          className="relative object-cover object-center w-full h-[80vh]"
+          className="relative object-cover object-center w-full h-[60vh]"
         >
           <Image
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654692925/Jes%C3%BAs%20Reina/general/contact-page_ciiqcd.webp"
@@ -72,8 +72,8 @@ const Contact = () => {
               className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-6 gap-y-6 sm:grid-cols-2 sm:gap-y-12 lg:max-w-none lg:gap-x-8"
             >
               <div className="pt-4 border-t border-stone-200">
-                <dl className="mt-8 text-sm sm:text-base text-stone-500">
-                  <div className="mt-3">
+                <dl className="mt-6 text-sm sm:text-base text-stone-500">
+                  <div className="my-3">
                     <dt className="pb-2 font-medium tracking-tight text-stone-700">
                       Email
                     </dt>
@@ -97,8 +97,8 @@ const Contact = () => {
                 </dl>
               </div>
               <div className="pt-4 border-t border-stone-200">
-                <dl className="mt-8 text-sm sm:text-base text-stone-500">
-                  <div>
+                <dl className="mt-6 text-sm sm:text-base text-stone-500">
+                  <div div className="my-3">
                     <dt className="font-medium text-stone-700">
                       {t('contact:representive')}
                     </dt>

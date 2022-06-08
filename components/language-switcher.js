@@ -8,7 +8,7 @@ const LanguageSwitcher = () => {
   return (
     //
     <div className="relative flex items-center tracking-wider ">
-      <div className="container flex items-center justify-between w-1/5 pl-8">
+      <div className="container flex items-center justify-between w-1/5 pl-0">
         <button className="px-2">
           <Link activeClassName={locale === 'es'} href={asPath} locale="es">
             <p className="transition duration-300 ease-in-out text-stone-600 hover:text-amber-600">

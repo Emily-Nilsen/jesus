@@ -14,7 +14,7 @@ const container = {
   show: {
     opacity: 1,
     transition: {
-      delayChildren: 0.5,
+      delayChildren: 0.1,
       staggerChildren: 0.4,
     },
   },
@@ -24,14 +24,14 @@ const itemBottom = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: { type: 'fade', duration: 1 },
+    transition: { type: 'fade', ease: 'easeIn', duration: 0.3 },
   },
 };
 const itemTop = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: { type: 'fade', duration: 1 },
+    transition: { type: 'fade', ease: 'easeIn', duration: 0.3 },
   },
 };
 
@@ -66,7 +66,7 @@ const Media = () => {
       keywords={t('common:media_meta_keywords')}
     >
       {/* YouTube video list */}
-      <div className="relative py-24 overflow-hidden bg-white pt-36">
+      <div className="relative py-16 overflow-hidden bg-white sm:pb-24">
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <div
             className="relative h-full mx-auto text-lg max-w-prose"
