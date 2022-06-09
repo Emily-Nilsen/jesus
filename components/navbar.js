@@ -10,6 +10,7 @@ import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
+import MyLink from './my-link';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -93,6 +94,7 @@ export default function Navbar() {
                   </Popover.Button>
                 </div>
               </div>
+
               <div className="flex justify-center w-full mx-auto mt-6 mb-3">
                 <nav className="text-stone-500">
                   <div>

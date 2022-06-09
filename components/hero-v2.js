@@ -38,7 +38,7 @@ export default function HeroV2() {
                   <div className="absolute inset-0 bg-gradient-to-t from-stone-900 mix-blend-multiply h-[50vh] place-self-end mt-[50vh]" />
                 </div>
                 <div className="relative flex items-end justify-center h-full px-4 pb-[13vh] sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                  <h1 className="text-5xl tracking-tight text-center sm:text-6xl">
+                  <h1 className="text-6xl tracking-tight text-center sm:text-7xl">
                     <span className="block text-white">Jesús Reina</span>
                   </h1>
                 </div>
