@@ -152,7 +152,7 @@ const Media = () => {
         <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="mx-auto text-lg max-w-7xl">
             <div>
-              <h2 className="mt-2 text-5xl font-semibold tracking-tight text-center sm:text-6xl text-brown-500">
+              <h2 className="mt-2 text-4xl font-medium tracking-tight text-center sm:text-5xl text-brown-500">
                 {t('common:media_title')}
               </h2>
             </div>

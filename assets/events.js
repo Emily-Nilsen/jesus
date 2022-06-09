@@ -6,7 +6,7 @@ const events = [
     description: 'Echegaray Theatre, 8 pm, Málaga, Spain',
     program: `ANACRUSA - Opening concert; One, two and three - CRESCENDO; Four - EQUILIBRIO; Five and six - DIVERSIÓN; Seven and eight - SIMBIOSIS; Nine and ten - VIRTUOSISMO; FORTÍSIMO - Closing concert;`,
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604660/Jes%C3%BAs%20Reina/general/image-06-small_b7ihxs.jpg',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-7_rosyeh.webp',
     link: 'https://teatrocervantes.com/es/genero/musica/x-malaga-clasica-crescendo/',
   },
   {
@@ -62,7 +62,7 @@ const events = [
     description: 'Teatro Echegaray, 20:00 h., Málaga, Spain',
     program: `ANACRUSA - Concierto de apertura; Uno, dos y tres - CRESCENDO; Cuatro - EQUILIBRIO; Cinco y séis - DIVERSIÓN; Siete y ocho - SIMBIOSIS; Nueve y diez - VIRTUOSISMO; FORTÍSIMO - Concierto de clausura</p>`,
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604660/Jes%C3%BAs%20Reina/general/image-06-small_b7ihxs.jpg',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-7_rosyeh.webp',
     link: 'https://teatrocervantes.com/es/genero/musica/x-malaga-clasica-crescendo/',
   },
   {

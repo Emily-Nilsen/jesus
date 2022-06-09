@@ -84,7 +84,7 @@ const EventsPage = (props) => {
               className="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
             >
               <motion.div variants={itemTop}>
-                <h2 className="text-5xl font-semibold tracking-tight sm:text-6xl text-brown-500">
+                <h2 className="text-4xl font-medium tracking-tight sm:text-5xl text-brown-500">
                   {t('common:post_title')}
                 </h2>
               </motion.div>

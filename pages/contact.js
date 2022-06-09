@@ -56,7 +56,7 @@ const Contact = () => {
             className="mx-auto text-lg max-w-prose"
           >
             <motion.div variants={item}>
-              <h2 className="text-5xl font-semibold tracking-tight text-center sm:text-6xl text-brown-500">
+              <h2 className="text-4xl font-medium tracking-tight text-center sm:text-5xl text-brown-500">
                 <span className="block">{t('contact:title')}</span>
               </h2>
             </motion.div>

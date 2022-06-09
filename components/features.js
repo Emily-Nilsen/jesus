@@ -47,7 +47,7 @@ export default function Features({ events }) {
             ease: 'easeIn',
           }}
         >
-          <h1 className="mt-2 text-5xl font-semibold tracking-tight text-center sm:text-6xl text-brown-500">
+          <h1 className="mt-2 text-4xl font-medium tracking-tight text-center sm:text-5xl text-brown-500">
             {t('home:features_title')}
           </h1>
         </motion.div>
