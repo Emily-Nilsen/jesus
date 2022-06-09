@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 
 const Layout = ({ title, keywords, description, children }) => {
   return (
@@ -11,6 +12,7 @@ const Layout = ({ title, keywords, description, children }) => {
         />
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
+        {/* Google Analytics */}
       </Head>
       {children}
     </div>
