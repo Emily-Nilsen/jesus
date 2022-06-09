@@ -106,7 +106,7 @@ const EventsPage = (props) => {
             delay: 0.6,
             type: 'spring',
           }}
-          className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:pb-20 md:pb-16"
+          className="px-4 pt-6 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:pb-20 md:pb-16"
         >
           <div className="max-w-3xl mx-auto">
             <div>

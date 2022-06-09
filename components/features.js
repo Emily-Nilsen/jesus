@@ -38,13 +38,13 @@ export default function Features({ events }) {
     <div className="relative pb-16 sm:pb-24 lg:pb-32">
       <div className="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <motion.div
-          whileInView={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0 }}
           transition={{
             duration: 1,
-            delay: 0.3,
-            type: 'spring',
+            type: 'fade',
+            ease: 'easeIn',
           }}
         >
           <h2 className="mt-2 text-4xl font-semibold tracking-tight text-center sm:text-5xl md:text-6xl text-brown-500">
@@ -52,14 +52,14 @@ export default function Features({ events }) {
           </h2>
         </motion.div>
         <motion.div
-          whileInView={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0 }}
           transition={{
             duration: 1,
             delay: 0.4,
-            type: 'spring',
-            bounce: 0.1,
+            type: 'fade',
+            ease: 'easeIn',
           }}
         >
           <p className="w-5/6 mx-auto mt-5 text-base leading-normal prose text-center sm:text-base md:text-lg text-stone-500 max-w-prose sm:leading-relaxed">
@@ -71,15 +71,14 @@ export default function Features({ events }) {
             <motion.div
               initial={{
                 opacity: 0,
-                y: 100,
               }}
-              whileInView={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{
                 duration: 1.2,
-                delay: i * 0.3,
-                type: 'spring',
-                bounce: 0.1,
+                delay: i * 0.6,
+                type: 'fade',
+                ease: 'easeIn',
               }}
               key={i}
             >
@@ -118,13 +117,13 @@ export default function Features({ events }) {
           ))}
         </dl>
         <motion.div
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
           transition={{
             duration: 1,
-            delay: 0.2,
-            type: 'spring',
-            bounce: 0.1,
+            delay: 0.5,
+            type: 'fade',
+            ease: 'easeIn',
           }}
           className="flex items-center justify-center pt-10"
         >

@@ -56,13 +56,13 @@ export default function Home(props) {
         </div>
 
         <motion.div
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
           transition={{
             duration: 1,
-            delay: 0.2,
-            type: 'spring',
-            bounce: 0.1,
+            delay: 0.5,
+            type: 'fade',
+            ease: 'easeIn',
           }}
           className="flex items-center justify-center py-10 sm:mb-10"
         >

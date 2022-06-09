@@ -35,27 +35,6 @@ const itemTop = {
   },
 };
 
-const people = [
-  {
-    name: 'Calvin Hawkins',
-    email: 'calvin.hawkins@example.com',
-    image:
-      'https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Kristen Ramos',
-    email: 'kristen.ramos@example.com',
-    image:
-      'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Ted Fox',
-    email: 'ted.fox@example.com',
-    image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-];
-
 const Media = () => {
   const { t } = useTranslation();
   const { locale, locales, asPath } = useRouter();
@@ -170,39 +149,46 @@ const Media = () => {
             </svg>
           </div>
         </div>
-        <motion.div
-          variants={container}
-          initial="hidden"
-          animate="show"
-          className="relative px-4 sm:px-6 lg:px-8"
-        >
-          <div className="mx-auto text-lg max-w-prose">
-            <motion.div variants={itemTop}>
+        <div className="relative px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto text-lg max-w-7xl">
+            <div>
               <h2 className="mt-2 text-4xl font-semibold tracking-tight text-center sm:text-5xl md:text-6xl text-brown-500">
                 {t('common:media_title')}
               </h2>
-            </motion.div>
-            <motion.div variants={itemBottom}>
-              <p className="w-5/6 mx-auto mt-5 text-sm leading-normal prose text-center sm:text-base md:text-lg text-stone-500 max-w-prose sm:leading-relaxed">
+            </div>
+            <div>
+              <p className="max-w-2xl mx-auto mt-5 text-sm leading-normal prose text-center sm:text-base md:text-lg text-stone-500 sm:leading-relaxed">
                 {t('common:media_text')}
               </p>
-            </motion.div>
+            </div>
             <div className="relative px-4 pt-4 sm:px-6 lg:px-8 sm:pt-8">
               <div className="mx-auto text-lg max-w-prose">
                 <ul role="list" className="divide-y divide-gray-200">
                   {videos
                     .filter((p) => p.locale === locale)
                     .map((video, i) => (
-                      <li key={i} className="flex py-4">
-                        <motion.div
-                          variants={itemBottom}
-                          className="w-full sm:flex"
-                        >
-                          <div className="mb-4 shrink-0 sm:mb-0 sm:mr-4">
-                            <div className="shrink-0">
-                              <YouTubeVideo videoId={video.videoId} />
-                            </div>
+                      <motion.li
+                        initial={{
+                          opacity: 0,
+                          transition: { delay: 2 },
+                        }}
+                        whileInView={{ opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{
+                          initialDelay: 2,
+                          duration: 0.8,
+                          delay: i * 0.3,
+                          ease: 'easeIn',
+                          type: 'fade',
+                        }}
+                        key={i}
+                        className="py-4 "
+                      >
+                        <div className="grid w-full h-full grid-cols-1 gap-6 md:grid-cols-3">
+                          <div className="col-span-1 md:col-span-2">
+                            <YouTubeVideo videoId={video.videoId} />
                           </div>
+
                           <div>
                             <div className="flex-1">
                               <p className="text-sm font-medium text-amber-600">
@@ -260,14 +246,14 @@ const Media = () => {
                               </div>
                             </div>
                           </div>
-                        </motion.div>
-                      </li>
+                        </div>
+                      </motion.li>
                     ))}
                 </ul>
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
 
       {/* Downloadable photos */}
