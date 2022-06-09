@@ -34,7 +34,7 @@ const HeroV1 = () => {
           <div className="relative h-[100vh]">
             <div className="flex items-center h-full max-w-7xl">
               <div className="w-full pr-10 2xl:pr-0">
-                <h1 className="tracking-tight text-right md:text-7xl lg:text-8xl text-brown-500">
+                <h1 className="tracking-normal text-right md:text-7xl lg:text-8xl text-brown-500">
                   Jesús Reina
                 </h1>
               </div>

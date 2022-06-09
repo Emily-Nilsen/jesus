@@ -37,7 +37,7 @@ export default function HeroV2() {
                   </motion.div>
                 </div>
                 <div className="relative flex items-end justify-center h-full px-4 pb-[16vh] sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                  <h1 className="text-5xl tracking-tight text-center sm:text-6xl">
+                  <h1 className="text-5xl tracking-normal text-center sm:text-6xl">
                     <span className="block text-white">Jesús Reina</span>
                   </h1>
                 </div>
