@@ -41,6 +41,9 @@ function MyApp({ Component, pageProps }) {
           "birthPlace": "Málaga, Spain",
           "nationality": "Spanish",
           "description": "Official website of the Spanish violinist Jesús Reina.",
+          "hasOccupation": "Violinist",
+          "affiliation": "Academia Internacional Galamian",
+          "contactPoint": "Beatrice Altobelli, Conciertos Vitoria",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Madrid",
@@ -48,9 +51,11 @@ function MyApp({ Component, pageProps }) {
             "postalCode": "28010",
             "streetAddress": "Calle Santa Engracia, 17, 3° Ofc. 11"
           },
-          "logo": "https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604664/Jes%C3%BAs%20Reina/SVGs/logo-path_usfoco.svg", 
+           
           "email": "info@jesusreina.es",
-          "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/v1653712685/Galamian/professors/jesus-photo-01_loefpu.webp",
+          "image": [
+            "https://res.cloudinary.com/dt3k2apqd/image/upload/v1653712685/Galamian/professors/jesus-photo-01_loefpu.webp", "https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604664/Jes%C3%BAs%20Reina/SVGs/logo-path_usfoco.svg"
+          ],
           "jobTitle": "Principal Violin Professor",
           "name": "Jesús Reina",
           "telephone": "+34 91 0182978",
