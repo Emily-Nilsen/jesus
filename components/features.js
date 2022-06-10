@@ -5,6 +5,7 @@ import Image from 'next/image';
 import useTranslation from 'next-translate/useTranslation';
 import { motion } from 'framer-motion';
 import ButtonRight from './button-right';
+import YoutubePreview from './youtube-preview';
 
 export default function Features({ events }) {
   const { t } = useTranslation();
@@ -25,18 +26,10 @@ export default function Features({ events }) {
       href: '/events',
       category: t('common:category_events'),
     },
-    {
-      title: t('common:media_title'),
-      description: t('home:features_media_text'),
-      imageUrl:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604658/Jes%C3%BAs%20Reina/general/image-09-small_big7ty.jpg',
-      href: '/media',
-      category: t('common:category_media'),
-    },
   ];
   return (
     <div className="relative pb-16 sm:pb-24 lg:pb-32">
-      <div className="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="max-w-md px-4 mx-auto sm:px-6 sm:max-w-2xl lg:px-8">
         <motion.div
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -66,7 +59,7 @@ export default function Features({ events }) {
             {t('home:features_text')}
           </p>
         </motion.div>
-        <dl className="pt-10 space-y-10">
+        <dl className="max-w-lg pt-10 mx-auto my-10 space-y-10">
           {features.map((feature, i) => (
             <motion.div
               initial={{
@@ -82,8 +75,8 @@ export default function Features({ events }) {
               }}
               key={i}
             >
-              <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div className="max-w-3xl mx-auto">
+              <div className="px-4 mx-auto sm:px-6 lg:px-8">
+                <div className="mx-auto">
                   <dt>
                     <Link href={feature.href} passHref>
                       <div className="flex cursor-pointer">
@@ -115,6 +108,8 @@ export default function Features({ events }) {
               </div>
             </motion.div>
           ))}
+          {/* For youtube previews */}
+          <YoutubePreview />
         </dl>
         <motion.div
           whileInView={{ opacity: 1 }}
