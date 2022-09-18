@@ -2,8 +2,8 @@ const events = [
   {
     locale: 'en',
     title: 'Festival Málaga Clásica',
-    date: 'June 6-12',
-    description: 'Echegaray Theatre, 8 pm, Málaga, Spain',
+    date: '',
+    description: 'Details will be announced',
     program: `ANACRUSA - Opening concert; One, two and three - CRESCENDO; Four - EQUILIBRIO; Five and six - DIVERSIÓN; Seven and eight - SIMBIOSIS; Nine and ten - VIRTUOSISMO; FORTÍSIMO - Closing concert;`,
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-7_rosyeh.webp',
@@ -58,8 +58,8 @@ const events = [
   {
     locale: 'es',
     title: 'Festival Málaga Clásica',
-    date: '6-12 de junio',
-    description: 'Teatro Echegaray, 20:00 h., Málaga, Spain',
+    date: '',
+    description: 'Los detalles serán anunciados',
     program: `ANACRUSA - Concierto de apertura; Uno, dos y tres - CRESCENDO; Cuatro - EQUILIBRIO; Cinco y séis - DIVERSIÓN; Siete y ocho - SIMBIOSIS; Nueve y diez - VIRTUOSISMO; FORTÍSIMO - Concierto de clausura</p>`,
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-7_rosyeh.webp',
