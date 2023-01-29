@@ -32,28 +32,7 @@ const events = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604658/Jes%C3%BAs%20Reina/general/image-09-small_big7ty.jpg',
     link: '',
   },
-  {
-    locale: 'en',
-    title:
-      'Concert with Málaga Philharmonic Orchestra and conductor Dawid Runtz',
-    date: 'October 13',
-    description: 'Teatro Cervantes, Málaga, Spain',
-    program: 'Wieniawski violin concerto no. 2.',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604659/Jes%C3%BAs%20Reina/general/image-05-small_ko9bnd.jpg',
-    link: '',
-  },
-  {
-    locale: 'en',
-    title:
-      'Concert with Málaga Philharmonic Orchestra and Conductor Dawid Runtz',
-    date: 'October 14',
-    description: 'Teatro Cervantes, Málaga, Spain',
-    program: 'Wieniawski violin concerto no. 2.',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604656/Jes%C3%BAs%20Reina/general/image-01-small_fwryu8.jpg',
-    link: '',
-  },
+
   // Spanish
   {
     locale: 'es',
@@ -85,29 +64,6 @@ const events = [
     program: '',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604658/Jes%C3%BAs%20Reina/general/image-09-small_big7ty.jpg',
-    link: '',
-  },
-  {
-    locale: 'es',
-    title:
-      'Concierto con la Orquesta Filarmónica de Málaga y el director Dawid Runtz',
-
-    date: '13 de octubre',
-    description: 'Teatro Cervantes, Málaga, España',
-    program: 'Concierto para violín núm. 2.',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604659/Jes%C3%BAs%20Reina/general/image-05-small_ko9bnd.jpg',
-    link: '',
-  },
-  {
-    locale: 'es',
-    title:
-      'Concierto con la Orquesta Filarmónica de Málaga y el Director Dawid Runtz',
-    date: '14 de octubre',
-    description: 'Teatro Cervantes, Málaga, España',
-    program: 'Concierto para violín núm. 2.',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604656/Jes%C3%BAs%20Reina/general/image-01-small_fwryu8.jpg',
     link: '',
   },
 ];
