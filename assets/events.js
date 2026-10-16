@@ -6,7 +6,7 @@ const events = [
     description: 'Details will be announced',
     program: `ANACRUSA - Opening concert; One, two and three - CRESCENDO; Four - EQUILIBRIO; Five and six - DIVERSIÓN; Seven and eight - SIMBIOSIS; Nine and ten - VIRTUOSISMO; FORTÍSIMO - Closing concert;`,
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-7_rosyeh.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-03-small_ccpydm.jpg',
     link: 'https://teatrocervantes.com/es/genero/musica/x-malaga-clasica-crescendo/',
   },
   {
@@ -41,7 +41,7 @@ const events = [
     description: 'Los detalles serán anunciados',
     program: `ANACRUSA - Concierto de apertura; Uno, dos y tres - CRESCENDO; Cuatro - EQUILIBRIO; Cinco y séis - DIVERSIÓN; Siete y ocho - SIMBIOSIS; Nueve y diez - VIRTUOSISMO; FORTÍSIMO - Concierto de clausura</p>`,
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1653686311/M%C3%A1laga%20Cl%C3%A1sica/day-7_rosyeh.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-03-small_ccpydm.jpg',
     link: 'https://teatrocervantes.com/es/genero/musica/x-malaga-clasica-crescendo/',
   },
   {

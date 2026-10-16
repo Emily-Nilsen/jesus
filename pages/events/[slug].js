@@ -58,9 +58,9 @@ const Event = ({ event }) => {
 
   return (
     <Layout
-      title={t('common:event_meta_title')}
-      description={t('common:event_meta_description')}
-      keywords={t('common:event_meta_keywords')}
+      title={t('common:slug_meta_title')}
+      description={t('common:slug_meta_description')}
+      keywords={t('common:slug_meta_keywords')}
     >
       <div className="relative bg-white md:mt-0">
         <div className="lg:absolute lg:inset-0">

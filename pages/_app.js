@@ -9,7 +9,7 @@ function classNames(...classes) {
 }
 
 function MyApp({ Component, pageProps }) {
-  const { locale, locales, defaultLocale, asPath } = useRouter();
+  const { locale, locales, defaultLocale, asPath, pathname } = useRouter();
 
   return (
     <div>
@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }) {
     `,
         }}
       ></script>
-      {asPath.includes('-') ? null : <Navbar />}
+      {pathname === '/events/[slug]' ? null : <Navbar />}
       <Component {...pageProps} />
       <Footer />
     </div>

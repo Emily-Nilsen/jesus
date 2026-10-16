@@ -13,7 +13,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        about: "url('/static/about.jpg')",
+        about:
+          "url('https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604654/Jes%C3%BAs%20Reina/general/about_hn44zk.jpg')",
         about_md: "url('/static/about-md.jpg')",
         about_sm: "url('/static/about-sm.jpg')",
         dropdown: "url('/static/dropdown.jpg')",
