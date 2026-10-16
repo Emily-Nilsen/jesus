@@ -133,7 +133,7 @@ const YoutubePreview = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <div className="mx-auto ">
             <dt>
-              <Link href="/media" passHref>
+              <Link href="/media">
                 <div className="flex cursor-pointer">
                   <div className="relative self-center flex-shrink-0 mr-4">
                     <div className="relative flex items-center object-cover object-center w-full h-full overflow-hidden rounded-full">
@@ -142,10 +142,13 @@ const YoutubePreview = () => {
                         alt="Jesús Reina"
                         width={80}
                         height={80}
-                        layout="intrinsic"
-                        objectFit="cover"
-                        objectPosition="center"
                         unoptimized={true}
+                        style={{
+                          width: 80,
+                          height: 80,
+                          objectFit: 'cover',
+                          objectPosition: 'center',
+                        }}
                       />
                     </div>
                     {/* Youtube 1 */}
@@ -159,10 +162,13 @@ const YoutubePreview = () => {
                         alt="Jesús Reina"
                         width={80}
                         height={80}
-                        layout="fixed"
-                        objectFit="cover"
-                        objectPosition="center"
                         unoptimized={true}
+                        style={{
+                          width: 80,
+                          height: 80,
+                          objectFit: 'cover',
+                          objectPosition: 'center',
+                        }}
                       />
                     </motion.div>
                     {/* Youtube 2 */}
@@ -176,10 +182,13 @@ const YoutubePreview = () => {
                         alt="Jesús Reina"
                         width={80}
                         height={80}
-                        layout="fixed"
-                        objectFit="cover"
-                        objectPosition="center"
                         unoptimized={true}
+                        style={{
+                          width: 80,
+                          height: 80,
+                          objectFit: 'cover',
+                          objectPosition: 'center',
+                        }}
                       />
                     </motion.div>
                     {/* Youtube 3 */}
@@ -193,10 +202,13 @@ const YoutubePreview = () => {
                         alt="Jesús Reina"
                         width={80}
                         height={80}
-                        layout="fixed"
-                        objectFit="cover"
-                        objectPosition="center"
                         unoptimized={true}
+                        style={{
+                          width: 80,
+                          height: 80,
+                          objectFit: 'cover',
+                          objectPosition: 'center',
+                        }}
                       />
                     </motion.div>
                     {/* Youtube 4 */}
@@ -210,10 +222,13 @@ const YoutubePreview = () => {
                         alt="Jesús Reina"
                         width={80}
                         height={80}
-                        layout="fixed"
-                        objectFit="cover"
-                        objectPosition="center"
                         unoptimized={true}
+                        style={{
+                          width: 80,
+                          height: 80,
+                          objectFit: 'cover',
+                          objectPosition: 'center',
+                        }}
                       />
                     </motion.div>
                     {/* Still image */}
@@ -227,10 +242,13 @@ const YoutubePreview = () => {
                         alt="Jesús Reina"
                         width={80}
                         height={80}
-                        layout="fixed"
-                        objectFit="cover"
-                        objectPosition="center"
                         unoptimized={true}
+                        style={{
+                          width: 80,
+                          height: 80,
+                          objectFit: 'cover',
+                          objectPosition: 'center',
+                        }}
                       />
                     </motion.div>
                   </div>

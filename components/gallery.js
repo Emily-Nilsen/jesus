@@ -68,10 +68,13 @@ export default function Gallery() {
                   <Image
                     src={photo.imageSrc}
                     alt={photo.imageAlt}
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
                     unoptimized={true}
+                    fill
+                    sizes="100vw"
+                    style={{
+                      objectFit: 'cover',
+                      objectPosition: 'center',
+                    }}
                   />
                 </div>
               </div>

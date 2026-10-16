@@ -78,7 +78,7 @@ export default function Features({ events }) {
               <div className="px-4 mx-auto sm:px-6 lg:px-8">
                 <div className="mx-auto">
                   <dt>
-                    <Link href={feature.href} passHref>
+                    <Link href={feature.href}>
                       <div className="flex cursor-pointer">
                         <div className="self-center flex-shrink-0 mr-4">
                           <Image
@@ -87,10 +87,13 @@ export default function Features({ events }) {
                             alt={feature.title}
                             width={80}
                             height={80}
-                            layout="fixed"
-                            objectFit="cover"
-                            objectPosition="center"
                             unoptimized={true}
+                            style={{
+                              width: 80,
+                              height: 80,
+                              objectFit: 'cover',
+                              objectPosition: 'center',
+                            }}
                           />
                         </div>
                         <div className="">

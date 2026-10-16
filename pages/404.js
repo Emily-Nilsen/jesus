@@ -40,7 +40,7 @@ const PageNotFound = () => {
     >
       <main className="h-screen bg-bottom bg-cover sm:bg-right-top bg-about">
         <div className="px-4 py-16 mx-auto text-center max-w-7xl sm:px-6 sm:py-24 lg:px-8 lg:py-48">
-          <p className="inline-flex items-center pb-4 text-xl font-light tracking-wide uppercase text-stone-500">
+          <div className="inline-flex items-center pb-4 text-xl font-light tracking-wide uppercase text-stone-500">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: [0.1, 1] }}
@@ -55,7 +55,7 @@ const PageNotFound = () => {
               {/* <FontAwesomeIcon icon={faCircleExclamation} /> */}
             </motion.div>
             404
-          </p>
+          </div>
 
           <h1 className="mt-4 text-5xl tracking-tight text-brown-500 sm:text-7xl">
             {t('common:notfound_title_1')}

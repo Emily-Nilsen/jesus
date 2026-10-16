@@ -48,9 +48,7 @@ export default function Navbar() {
                   transition={{ type: 'spring', stiffness: 50 }}
                   key={link.title}
                 >
-                  <Link href={link.path} passHref>
-                    <a>{link.title}</a>
-                  </Link>
+                  <Link href={link.path}>{link.title}</Link>
                 </motion.li>
               ))}
             </ul>
@@ -99,13 +97,14 @@ export default function Navbar() {
                 <nav className="text-stone-500">
                   <div>
                     {navLinks.map((link) => (
-                      <Link key={link.title} href={link.path} passHref>
-                        <Popover.Button>
-                          <a className="my-1 mr-5 text-sm transition duration-300 ease-in-out sm:mr-8 hover:text-amber-600">
-                            {link.title}
-                          </a>
-                        </Popover.Button>
-                      </Link>
+                      <Popover.Button
+                        as={Link}
+                        key={link.title}
+                        href={link.path}
+                        className="my-1 mr-5 text-sm transition duration-300 ease-in-out sm:mr-8 hover:text-amber-600"
+                      >
+                        {link.title}
+                      </Popover.Button>
                     ))}
                   </div>
                 </nav>

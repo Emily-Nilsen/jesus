@@ -40,10 +40,13 @@ const Contact = () => {
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654692925/Jes%C3%BAs%20Reina/general/contact-page_ciiqcd.webp"
             alt="Jesús Reina"
             className=""
-            layout="fill"
-            objectFit="cover"
-            objectPosition="top"
             unoptimized={true}
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: 'cover',
+              objectPosition: 'top',
+            }}
           />
           <div className="absolute inset-0 mt-48 bg-gradient-to-t from-white" />
         </div>
@@ -98,7 +101,7 @@ const Contact = () => {
               </div>
               <div className="pt-4 border-t border-stone-200">
                 <dl className="mt-6 text-sm sm:text-base text-stone-500">
-                  <div div className="my-3">
+                  <div className="my-3">
                     <dt className="font-medium text-stone-700">
                       {t('contact:representive')}
                     </dt>

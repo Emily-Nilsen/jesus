@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Logo = () => {
   return (
     <div className="relative z-20 flex items-center w-5/6 cursor-pointer h-5/6 sm:h-full sm:w-full">
-      <Link href="/" exact="true" passHref>
+      <Link href="/">
         <svg
           width="40"
           height="40"

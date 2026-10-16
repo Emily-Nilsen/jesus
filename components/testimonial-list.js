@@ -38,11 +38,16 @@ const TestimonialList = () => {
                       src={testimonial.logo || ''}
                       height={71}
                       width={200}
-                      alt={testimonial.author}
-                      layout="responsive"
-                      objectFit="contain"
-                      objectPosition="center"
+                      alt={testimonial.source}
                       unoptimized={true}
+                      sizes="100vw"
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                        aspectRatio: '200 / 71',
+                        objectFit: 'contain',
+                        objectPosition: 'center',
+                      }}
                     ></Image>
                   </div>
 

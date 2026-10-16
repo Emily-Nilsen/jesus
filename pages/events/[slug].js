@@ -83,10 +83,13 @@ const Event = ({ event }) => {
               <Image
                 src={event.image}
                 alt={event.title}
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
                 unoptimized={true}
+                fill
+                sizes="100vw"
+                style={{
+                  objectFit: 'cover',
+                  objectPosition: 'center',
+                }}
               />
             </motion.div>
           </div>

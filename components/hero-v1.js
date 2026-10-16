@@ -23,10 +23,13 @@ const HeroV1 = () => {
               <Image
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604662/Jes%C3%BAs%20Reina/general/hero-large-v2_nixfj1.jpg"
                 alt="Jesús Reina"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="top"
                 unoptimized={true}
+                fill
+                sizes="100vw"
+                style={{
+                  objectFit: 'cover',
+                  objectPosition: 'top',
+                }}
               />
             </div>
             <div className="absolute inset-0" />

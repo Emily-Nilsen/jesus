@@ -19,9 +19,14 @@ const EventItem = ({ evt }) => {
             alt=""
             width={260}
             height={160}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
+            sizes="100vw"
+            style={{
+              width: '100%',
+              height: 'auto',
+              aspectRatio: '260 / 160',
+              objectFit: 'cover',
+              objectPosition: 'center',
+            }}
           />
         </div>
       </div>

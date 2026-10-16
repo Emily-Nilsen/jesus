@@ -41,12 +41,13 @@ const About = () => {
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604654/Jes%C3%BAs%20Reina/general/about_hn44zk.jpg"
             alt="Jesús Reina"
             className=""
-            width={1920}
-            height={724}
-            layout="fill"
-            objectFit="cover"
-            objectPosition="top right"
             unoptimized={true}
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: 'cover',
+              objectPosition: 'top right',
+            }}
           />
           <div className="absolute inset-0 opacity-100 bg-gradient-to-t from-white" />
         </motion.div>

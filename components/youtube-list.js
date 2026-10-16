@@ -37,9 +37,9 @@ const YouTubeList = () => {
               <div>
                 <div className="flex flex-col justify-between flex-1 p-6 text-left bg-stone-100">
                   <div className="flex-1">
-                    <p className="text-sm font-medium text-amber-600">
+                    <div className="text-sm font-medium text-amber-600">
                       <p className="hover:underline">{video.title}</p>
-                    </p>
+                    </div>
                     <div className="block mt-2">
                       <h2 className="pb-6 text-2xl font-semibold tracking-tight sm:text-3xl text-brown-500">
                         {video.description}

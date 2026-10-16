@@ -191,9 +191,9 @@ const Media = () => {
 
                           <div>
                             <div className="flex-1">
-                              <p className="text-sm font-medium text-amber-600">
+                              <div className="text-sm font-medium text-amber-600">
                                 <p className="hover:underline">{video.title}</p>
-                              </p>
+                              </div>
                               <div className="block mt-1">
                                 <h3 className="pb-1 text-base font-medium tracking-tight text-stone-600">
                                   {video.description}

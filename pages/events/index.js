@@ -65,12 +65,13 @@ const EventsPage = (props) => {
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654688704/Jes%C3%BAs%20Reina/general/events-page_yympqy.webp"
             alt="Jesús Reina"
             className=""
-            width={1920}
-            height={724}
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
             unoptimized={true}
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: 'cover',
+              objectPosition: 'center',
+            }}
           />
           <div className="absolute inset-0 mt-12 bg-gradient-to-t from-white" />
         </div>
@@ -118,9 +119,9 @@ const EventsPage = (props) => {
                       <li key={event.title} className="py-4">
                         <div className="flex items-center space-x-4">
                           <div className="flex-1 min-w-0">
-                            <p className="text-xs font-medium sm:text-sm text-amber-600">
+                            <div className="text-xs font-medium sm:text-sm text-amber-600">
                               <p>{event.date || t('common:tba')}</p>
-                            </p>
+                            </div>
                             <p className="text-sm font-medium truncate sm:text-base text-stone-600">
                               {event.title}
                             </p>
@@ -131,11 +132,9 @@ const EventsPage = (props) => {
                           <div>
                             <Link
                               href={`/events/${slugify(event.title)}`}
-                              passHref
+                              className="inline-flex items-center px-2.5 py-0.5 text-sm leading-5 font-medium rounded-full text-brown-500  hover:text-amber-600 transition duration-200 ease-in-out hover:border-amber-400"
                             >
-                              <a className="inline-flex items-center px-2.5 py-0.5 text-sm leading-5 font-medium rounded-full text-brown-500  hover:text-amber-600 transition duration-200 ease-in-out hover:border-amber-400">
-                                {t('common:read_more')}
-                              </a>
+                              {t('common:read_more')}
                             </Link>
                           </div>
                         </div>

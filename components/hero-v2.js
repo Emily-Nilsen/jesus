@@ -29,10 +29,13 @@ export default function HeroV2() {
                     <Image
                       src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654796505/Jes%C3%BAs%20Reina/general/hero_gradient_is8dzp.webp"
                       alt="Jesús Reina"
-                      layout="fill"
-                      objectFit="cover"
-                      objectPosition="center"
                       unoptimized={true}
+                      fill
+                      sizes="100vw"
+                      style={{
+                        objectFit: 'cover',
+                        objectPosition: 'center',
+                      }}
                     />
                   </motion.div>
                 </div>
