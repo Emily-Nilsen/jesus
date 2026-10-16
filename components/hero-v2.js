@@ -27,7 +27,7 @@ export default function HeroV2() {
                     className="object-cover w-full h-full"
                   >
                     <Image
-                      src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654796505/Jes%C3%BAs%20Reina/general/hero_gradient_is8dzp.webp"
+                      src="/images/hero-gradient.webp"
                       alt="Jesús Reina"
                       unoptimized={true}
                       fill

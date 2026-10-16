@@ -13,16 +13,14 @@ export default function Features({ events }) {
     {
       title: t('common:about_title'),
       description: t('home:features_about_text'),
-      imageUrl:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604667/Jes%C3%BAs%20Reina/general/presskit_yuc4d9.jpg',
+      imageUrl: '/images/presskit.jpg',
       href: '/about',
       category: t('common:category_about'),
     },
     {
       title: t('common:post_title'),
       description: t('home:features_events_text'),
-      imageUrl:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-04-small_irym76.jpg',
+      imageUrl: '/images/image-04-small.jpg',
       href: '/events',
       category: t('common:category_events'),
     },

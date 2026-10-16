@@ -26,10 +26,10 @@ const item = {
   },
 };
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = async ({ params, locale }) => {
   const slugify = require('slugify');
   const eventslist = events.filter(
-    (event) => slugify(event.title) === params.slug
+    (event) => slugify(event.title) === params.slug && event.locale === locale
   );
   return {
     props: {

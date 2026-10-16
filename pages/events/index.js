@@ -62,7 +62,7 @@ const EventsPage = (props) => {
           className="relative object-cover object-center w-full h-[50vh]"
         >
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654688704/Jes%C3%BAs%20Reina/general/events-page_yympqy.webp"
+            src="/images/events-page.webp"
             alt="Jesús Reina"
             className=""
             unoptimized={true}

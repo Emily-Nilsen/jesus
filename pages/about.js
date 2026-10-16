@@ -38,7 +38,7 @@ const About = () => {
           className="relative object-cover object-center w-full h-[40vh] sm:h-[40vh]"
         >
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604654/Jes%C3%BAs%20Reina/general/about_hn44zk.jpg"
+            src="/images/about.jpg"
             alt="Jesús Reina"
             className=""
             unoptimized={true}

@@ -5,8 +5,7 @@ const events = [
     date: '',
     description: 'Details will be announced',
     program: `ANACRUSA - Opening concert; One, two and three - CRESCENDO; Four - EQUILIBRIO; Five and six - DIVERSIÓN; Seven and eight - SIMBIOSIS; Nine and ten - VIRTUOSISMO; FORTÍSIMO - Closing concert;`,
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-03-small_ccpydm.jpg',
+    image: '/images/image-03-small.jpg',
     link: 'https://teatrocervantes.com/es/genero/musica/x-malaga-clasica-crescendo/',
   },
   {
@@ -17,9 +16,8 @@ const events = [
     date: '',
     description: 'For Aria Classics - Malta',
     program: 'Bruch and Mendelssohn violin concertos.',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-04-small_irym76.jpg',
-    link: 'https://www.udemy.com/course/complete-nextjs-developer-zero-to-mastery/learn/lecture/26545448#overview',
+    image: '/images/image-04-small.jpg',
+    link: '',
   },
 
   {
@@ -28,8 +26,7 @@ const events = [
     date: '',
     description: '',
     program: '',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604658/Jes%C3%BAs%20Reina/general/image-09-small_big7ty.jpg',
+    image: '/images/image-09-small.jpg',
     link: '',
   },
 
@@ -39,9 +36,8 @@ const events = [
     title: 'Festival Málaga Clásica',
     date: '',
     description: 'Los detalles serán anunciados',
-    program: `ANACRUSA - Concierto de apertura; Uno, dos y tres - CRESCENDO; Cuatro - EQUILIBRIO; Cinco y séis - DIVERSIÓN; Siete y ocho - SIMBIOSIS; Nueve y diez - VIRTUOSISMO; FORTÍSIMO - Concierto de clausura</p>`,
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-03-small_ccpydm.jpg',
+    program: `ANACRUSA - Concierto de apertura; Uno, dos y tres - CRESCENDO; Cuatro - EQUILIBRIO; Cinco y séis - DIVERSIÓN; Siete y ocho - SIMBIOSIS; Nueve y diez - VIRTUOSISMO; FORTÍSIMO - Concierto de clausura`,
+    image: '/images/image-03-small.jpg',
     link: 'https://teatrocervantes.com/es/genero/musica/x-malaga-clasica-crescendo/',
   },
   {
@@ -51,8 +47,7 @@ const events = [
     date: '',
     description: 'Para los clásicos de Aria - Malta',
     program: 'Conciertos para violín de Bruch y Mendelssohn.',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-04-small_irym76.jpg',
+    image: '/images/image-04-small.jpg',
     link: '',
   },
 
@@ -62,8 +57,7 @@ const events = [
     date: '',
     description: '',
     program: '',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604658/Jes%C3%BAs%20Reina/general/image-09-small_big7ty.jpg',
+    image: '/images/image-09-small.jpg',
     link: '',
   },
 ];

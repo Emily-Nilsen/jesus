@@ -37,7 +37,7 @@ const Contact = () => {
           className="relative object-cover object-center w-full h-[60vh]"
         >
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654692925/Jes%C3%BAs%20Reina/general/contact-page_ciiqcd.webp"
+            src="/images/contact-page.webp"
             alt="Jesús Reina"
             className=""
             unoptimized={true}

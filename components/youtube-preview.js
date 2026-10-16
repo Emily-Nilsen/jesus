@@ -138,7 +138,7 @@ const YoutubePreview = () => {
                   <div className="relative self-center flex-shrink-0 mr-4">
                     <div className="relative flex items-center object-cover object-center w-full h-full overflow-hidden rounded-full">
                       <Image
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654769971/Jes%C3%BAs%20Reina/general/Jesus_youtube_1_jycnbe.png"
+                        src="/images/jesus-youtube-1.png"
                         alt="Jesús Reina"
                         width={80}
                         height={80}
@@ -158,7 +158,7 @@ const YoutubePreview = () => {
                     >
                       <Image
                         className="rounded-full"
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654755464/Jes%C3%BAs%20Reina/general/Jesu%CC%81s_YouTube_vid_1_v3_jdorek.gif"
+                        src="/images/jesus-youtube-vid-1-v3.gif"
                         alt="Jesús Reina"
                         width={80}
                         height={80}
@@ -178,7 +178,7 @@ const YoutubePreview = () => {
                     >
                       <Image
                         className="rounded-full"
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654770071/Jes%C3%BAs%20Reina/general/Jesus_Youtube_2_iungco.gif"
+                        src="/images/jesus-youtube-2.gif"
                         alt="Jesús Reina"
                         width={80}
                         height={80}
@@ -198,7 +198,7 @@ const YoutubePreview = () => {
                     >
                       <Image
                         className="rounded-full"
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654770091/Jes%C3%BAs%20Reina/general/Jesus_youtube_3_xcvrpm.gif"
+                        src="/images/jesus-youtube-3.gif"
                         alt="Jesús Reina"
                         width={80}
                         height={80}
@@ -218,7 +218,7 @@ const YoutubePreview = () => {
                     >
                       <Image
                         className="rounded-full"
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654770110/Jes%C3%BAs%20Reina/general/Jesus_youtube_4_qo0p04.gif"
+                        src="/images/jesus-youtube-4.gif"
                         alt="Jesús Reina"
                         width={80}
                         height={80}
@@ -238,7 +238,7 @@ const YoutubePreview = () => {
                     >
                       <Image
                         className="rounded-full"
-                        src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604669/Jes%C3%BAs%20Reina/general/youtube-snapshot_zhrtox.jpg"
+                        src="/images/youtube-snapshot.jpg"
                         alt="Jesús Reina"
                         width={80}
                         height={80}

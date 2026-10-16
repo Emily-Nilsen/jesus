@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps }) {
            
           "email": "info@jesusreina.es",
           "image": [
-            "https://res.cloudinary.com/dt3k2apqd/image/upload/v1653712685/Galamian/professors/jesus-photo-01_loefpu.webp", "https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604664/Jes%C3%BAs%20Reina/SVGs/logo-path_usfoco.svg"
+            "https://www.jesusreina.es/images/image-02-small.jpg", "https://www.jesusreina.es/images/logo-path.svg"
           ],
           "jobTitle": "Principal Violin Professor",
           "name": "Jesús Reina",

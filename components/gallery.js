@@ -8,22 +8,19 @@ const photos = [
   {
     id: 1,
     href: '/static/jesus_reina_1.jpg',
-    imageSrc:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-03-small_ccpydm.jpg',
+    imageSrc: '/images/image-03-small.jpg',
     imageAlt: 'Jesús Reina',
   },
   {
     id: 2,
     href: '/static/jesus_reina_2.jpg',
-    imageSrc:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604657/Jes%C3%BAs%20Reina/general/image-04-small_irym76.jpg',
+    imageSrc: '/images/image-04-small.jpg',
     imageAlt: 'Jesús Reina',
   },
   {
     id: 3,
     href: '/static/jesus_reina_3.jpg',
-    imageSrc:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1654604654/Jes%C3%BAs%20Reina/general/image-02-small_dqgrht.jpg',
+    imageSrc: '/images/image-02-small.jpg',
     imageAlt: 'Jesús Reina',
   },
 ];
