@@ -12,10 +12,6 @@ class MyDocument extends Document {
       <Html lang="es">
         <Head>
           <link rel="icon" href="/images/logo-path.svg" />
-          <link
-            rel="stylesheet"
-            href="https://use.typekit.net/omr0hqa.css"
-          ></link>
         </Head>
         <body>
           <Main />

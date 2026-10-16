@@ -65,7 +65,7 @@ const About = () => {
                   ease: 'easeIn',
                 }}
               >
-                <h1 className="pb-8 -mt-16 text-4xl tracking-tight sm:mt-0 sm:text-5xl md:text-6xl text-brown-500">
+                <h1 className="font-semibold pb-8 -mt-16 text-4xl tracking-tight sm:mt-0 sm:text-5xl md:text-6xl text-brown-500">
                   Jesús Reina
                 </h1>
               </motion.div>

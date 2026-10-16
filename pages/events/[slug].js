@@ -109,7 +109,7 @@ const Event = ({ event }) => {
               </motion.div>
 
               <motion.div variants={item}>
-                <h2 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl text-brown-500">
+                <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl text-brown-500">
                   {event.title}
                 </h2>
               </motion.div>

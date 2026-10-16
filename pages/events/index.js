@@ -59,7 +59,7 @@ const EventsPage = (props) => {
       >
         <div
           aria-hidden="true"
-          className="relative object-cover object-center w-full h-[50vh]"
+          className="relative object-cover object-center w-full h-[62vh]"
         >
           <Image
             src="/images/events-page.webp"
@@ -70,7 +70,9 @@ const EventsPage = (props) => {
             sizes="100vw"
             style={{
               objectFit: 'cover',
-              objectPosition: 'center',
+              // The box sits 12vh up behind the navbar; shift the photo down
+              // the same amount so his head starts below the menu
+              objectPosition: 'center calc(50% + 6vh)',
             }}
           />
           <div className="absolute inset-0 mt-12 bg-gradient-to-t from-white" />
@@ -85,7 +87,7 @@ const EventsPage = (props) => {
               className="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
             >
               <motion.div variants={itemTop}>
-                <h2 className="text-4xl font-medium tracking-tight sm:text-5xl text-brown-500">
+                <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl text-brown-500">
                   {t('common:post_title')}
                 </h2>
               </motion.div>

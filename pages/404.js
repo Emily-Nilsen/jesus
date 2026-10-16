@@ -57,7 +57,7 @@ const PageNotFound = () => {
             404
           </div>
 
-          <h1 className="mt-4 text-5xl tracking-tight text-brown-500 sm:text-7xl">
+          <h1 className="font-semibold mt-4 text-5xl tracking-tight text-brown-500 sm:text-7xl">
             {t('common:notfound_title_1')}
             <br />
             {t('common:notfound_title_2')}

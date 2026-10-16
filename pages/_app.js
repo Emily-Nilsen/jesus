@@ -3,6 +3,17 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
+import { Cormorant_Garamond, Montserrat } from 'next/font/google';
+
+// Self-hosted at build time, so the site no longer depends on Adobe Fonts
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+});
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+});
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -13,6 +24,12 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div>
+      <style jsx global>{`
+        :root {
+          --font-montserrat: ${montserrat.style.fontFamily};
+          --font-cormorant: ${cormorant.style.fontFamily};
+        }
+      `}</style>
       {/* Google Analytics */}
       <script
         async

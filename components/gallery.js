@@ -40,7 +40,7 @@ export default function Gallery() {
           }}
           className="sm:flex sm:items-baseline sm:justify-between"
         >
-          <h2 className="pb-4 text-4xl font-medium tracking-tight sm:text-5xl text-brown-500">
+          <h2 className="pb-4 text-4xl font-semibold tracking-tight sm:text-5xl text-brown-500">
             {t('common:gallery_title')}
           </h2>
         </motion.div>

@@ -41,7 +41,7 @@ const YouTubeList = () => {
                       <p className="hover:underline">{video.title}</p>
                     </div>
                     <div className="block mt-2">
-                      <h2 className="pb-6 text-2xl font-semibold tracking-tight sm:text-3xl text-brown-500">
+                      <h2 className="pb-6 text-2xl font-bold tracking-tight sm:text-3xl text-brown-500">
                         {video.description}
                       </h2>
 
